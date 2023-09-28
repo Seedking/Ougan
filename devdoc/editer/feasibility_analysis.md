@@ -13,8 +13,12 @@
 有图形界面编辑器  
 可以将编辑的数据记录为JSON（工程）  
 可以加载JSON（工程） 
+#### 细节
+* 拖动音频文件和内部控件（不知道在flutter中如何实现）
+* 
 ### 界面
 界面模仿StudioOne，轨道信号逻辑模仿Reaper  
+![studioone](https://github.com/Seedking/Ougan/blob/main/resources/studioone.png)  
 
 ## 解决
 ### 使用语言
@@ -23,5 +27,8 @@
 使用c可以修炼基础编程能力，但容易出错  
 所以选择c 选择修炼！  
 但是似乎可以纯dart解决所有问题  
+
+换electron之后就全都是c和js了 哈哈。
 ### 使用库
-* 图形界面 [flutter](https://github.com/flutter/flutter)
+* 图形界面 [flutter](https://github.com/flutter/flutter) (经测试发现这玩意在桌面平台不好使)  
+* 图形界面 [electron](https://www.electronjs.org/zh/)
