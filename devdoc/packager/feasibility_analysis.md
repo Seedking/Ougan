@@ -58,7 +58,8 @@ graph LR
 ### 使用库
 * 命令行解析 CLI11
 * json
-* 反序列化/序列化 [yas](https://github.com/niXman/yas)
+* 反序列化/序列化 [yas](https://github.com/niXman/yas) 计划放弃，使用更多人用的flatbufers
+* 反序列化/序列化 [flatbuffers](https://github.com/google/flatbuffers)
 * 音频有损压缩 alac(经测试压缩后体积太大，放弃)
 * 音频有损压缩 [ogg](https://github.com/xiph/ogg)
 * 编解码器 [opus](https://github.com/xiph/opus)
