@@ -1,4 +1,8 @@
 # 设计
+## 开发
+cpp版本20  
+c版本89  
+使用[谷歌代码风格](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/contents/) 
 ## 流程
 ```mermaid
 graph TB
