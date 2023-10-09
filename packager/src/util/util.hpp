@@ -11,6 +11,6 @@
 
 #include "message_box/message_box.hpp"
 
-#include "file_system/file_system.hpp"
+#include "file_system/path.hpp"
 
 #endif //PACKAGER_UTIL_HPP
