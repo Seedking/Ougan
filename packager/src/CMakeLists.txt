@@ -12,4 +12,4 @@ add_subdirectory(util)
 
 add_executable(${PROJECT_NAME} packager.cpp)
 set_target_properties(${PROJECT_NAME} PROPERTIES CMAKE_CXX_STANDARD ${PACKAGER_CXX_VERSION})
-target_link_libraries(${PROJECT_NAME} message_box file_system)
+target_link_libraries(${PROJECT_NAME} message_box)
