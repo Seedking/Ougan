@@ -29,6 +29,10 @@
 但是似乎可以纯dart解决所有问题  
 
 换electron之后就全都是c和js了 哈哈。
+
+发现compose-multiplatform，找时间测试，  
+感觉比electron方便
 ### 使用库
 * 图形界面 [flutter](https://github.com/flutter/flutter) (经测试发现这玩意在桌面平台不好使)  
 * 图形界面 [electron](https://www.electronjs.org/zh/)
+* 图形界面 [compose-multiplatform](https://github.com/JetBrains/compose-multiplatform)
